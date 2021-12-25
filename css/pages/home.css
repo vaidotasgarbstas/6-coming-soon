@@ -14,3 +14,43 @@
 
 /* CUSTOM STYLE BELOW THIS COMMENT, FOR THIS PAGE */
 
+/* HERO */
+
+.hero {
+    padding-bottom: 30px;
+}
+.hero > .row-short {
+    text-align: center;
+}
+.hero .logo {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 45px;
+    object-fit: contain;
+    object-position: center;
+}
+.hero .main-title {
+    margin-bottom: 15px;
+    font-size: 45px;
+    color: #010103;
+    font-style: bold;
+    text-transform: uppercase;
+}
+.hero .main-description {
+    margin-bottom: 45px;
+    color: #B3B2B7;
+    font-size: 18px;
+}
+.hero .clock {
+    margin-bottom: 45px;
+
+}
+.hero .form{
+    margin-bottom: 55px;
+}
+/* MAIN CONTENT */
+
+
+
+
+/* FOOTER */
