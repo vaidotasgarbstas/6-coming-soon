@@ -1,16 +1,16 @@
 /* base */
-@import "../base/reset.css";
-@import "../base/variables.css";
-@import "../base/layout.css";
+@import '../base/reset.css';
+@import '../base/variables.css';
+@import '../base/layout.css';
 
 /* 3th party components */
 
 /* components */
-@import "../components/button.css";
-@import "../components/clock.css";
-@import "../components/form.css";
-@import "../components/mouse.css";
-@import "../components/progress-bar.css";
+@import '../components/button.css';
+@import '../components/clock.css';
+@import '../components/form.css';
+@import '../components/mouse.css';
+@import '../components/progress-bar.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT, FOR THIS PAGE */
 
@@ -23,7 +23,6 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    
 }
 .hero > .row-short {
     text-align: center;
@@ -44,18 +43,55 @@
 }
 .hero .main-description {
     margin-bottom: 30px;
-    color: #B3B2B7;
+    color: #b3b2b7;
     font-size: 18px;
 }
 .hero .clock {
     margin-bottom: 30px;
 }
-.hero .form{
-    margin-bottom: 15px;
+.hero .form {
+    width: 90%;
+    margin: 0 5% 40px;
 }
+.hero .form > .input {
+    color: #fff;
+    border-color: currentColor;
+}
+.hero .form > .input::placeholder {
+    color: currentColor;
+}
+
 /* MAIN CONTENT */
 
-
-
-
+.column > * {
+    margin-bottom: 20px;
+}
+.column > *:last-child {
+    margin-bottom: 0;
+}
+.content-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.content-description {
+    font-size: 17px;
+    color: #b3b2b7;
+}
+.content-description > .link {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.content-description > .link:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+@media (min-width: 900px) {
+    main .form > input.input {
+        width: calc(50% - 10px);
+    }
+    main .form > input.input:last-of-type {
+        float: right;
+    }
+}
 /* FOOTER */
