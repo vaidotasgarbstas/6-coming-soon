@@ -11,18 +11,18 @@
 }
 
 .container > .row-short {
-    display: inline-block;
+    float: left;
     width: 600px;
     margin: 0 calc(50% - 300px);
 }
 .container .left {
     width: 50%;
     float: left;
+    margin-right: 10%;
 }
 .container .right {
     width: 40%;
-    float: right;
-    margin-left: 10%;
+    float: left;
 }
 @media (max-width: 900px) {
     .container > .row {
@@ -38,11 +38,10 @@
     }
     .container .left {
         width: 100%;
+        margin: 0 0 60px;;
     }
     .container .right {
         width: 100%;
-        margin-left: 0;
-        margin-top: 50px;
     }
 }
 @media (max-width: 460px) {

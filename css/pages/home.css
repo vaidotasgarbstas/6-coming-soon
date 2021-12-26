@@ -53,9 +53,37 @@
 .hero .form{
     margin-bottom: 15px;
 }
+
+
+
 /* MAIN CONTENT */
 
+.column > * {
+    margin-bottom: 20px;
+}
+.column > *:last-child {
+    margin-bottom: 0;
+}
+.content-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.content-description {
+    font-size: 17px;
+    color: #B3B2B7;
+}
+.content-description > .link {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.content-description > .link:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+.progress-bar {
 
+}
 
 
 /* FOOTER */
