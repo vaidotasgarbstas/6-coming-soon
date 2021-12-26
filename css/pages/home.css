@@ -4,6 +4,7 @@
 @import '../base/layout.css';
 
 /* 3th party components */
+@import '../components/font-awesome.css';
 
 /* components */
 @import '../components/button.css';
@@ -98,4 +99,5 @@ main .form > button {
         float: right;
     }
 }
+
 /* FOOTER */
