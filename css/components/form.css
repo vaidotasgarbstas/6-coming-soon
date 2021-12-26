@@ -14,12 +14,6 @@
 .form > label {
     display: none;
 }
-.form > input {
-    width: calc(50%-10px);
-}
-.form > input:last-of-type {
-    float: right;
-}
 .form > .input {
     width: 100%;
     padding: 0.5em 0;
@@ -28,16 +22,15 @@
     line-height: 1.5em;
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid #CFCFCF;
+    border-bottom: 2px solid #cfcfcf;
     border-radius: 0.2em;
-
+}
 .form > textarea {
-    width: 100%;
-    resize: :vertical;
     width: 100%;
     min-height: 100px;
     height: 150px;
     max-height: 300px;
+    resize: vertical;
 }
 .form *:focus {
     outline: 1px solid var(--secondary-color);
