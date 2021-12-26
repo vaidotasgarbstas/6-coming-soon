@@ -86,6 +86,10 @@
     color: var(--secondary-color);
     text-decoration: underline;
 }
+main .form > button {
+    float: right;
+}
+
 @media (min-width: 900px) {
     main .form > input.input {
         width: calc(50% - 10px);
