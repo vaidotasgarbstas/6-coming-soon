@@ -1,5 +1,16 @@
 .btn {
+    padding: 0.8em 1em;
     font-size: 20px;
-    padding: 0.5em 1.5em;
-    border-radius: 0.25em;
+    line-height: 1em;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 0.1em;
+    cursor: pointer;
+    box-shadow: 0 2px 8px 1px #0005;
+}
+.btn:hover {
+    background-color: var(--secondary-color-dark);
 }

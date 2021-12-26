@@ -1,16 +1,16 @@
 /* base */
-@import "../base/reset.css";
-@import "../base/variables.css";
-@import "../base/layout.css";
+@import '../base/reset.css';
+@import '../base/variables.css';
+@import '../base/layout.css';
 
 /* 3th party components */
 
 /* components */
-@import "../components/button.css";
-@import "../components/clock.css";
-@import "../components/form.css";
-@import "../components/mouse.css";
-@import "../components/progress-bar.css";
+@import '../components/button.css';
+@import '../components/clock.css';
+@import '../components/form.css';
+@import '../components/mouse.css';
+@import '../components/progress-bar.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT, FOR THIS PAGE */
 
@@ -23,7 +23,6 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    
 }
 .hero > .row-short {
     text-align: center;
@@ -44,17 +43,15 @@
 }
 .hero .main-description {
     margin-bottom: 30px;
-    color: #B3B2B7;
+    color: #b3b2b7;
     font-size: 18px;
 }
 .hero .clock {
     margin-bottom: 30px;
 }
-.hero .form{
+.hero .form {
     margin-bottom: 15px;
 }
-
-
 
 /* MAIN CONTENT */
 
@@ -71,7 +68,7 @@
 }
 .content-description {
     font-size: 17px;
-    color: #B3B2B7;
+    color: #b3b2b7;
 }
 .content-description > .link {
     color: var(--secondary-color);
@@ -81,9 +78,5 @@
     color: var(--secondary-color);
     text-decoration: underline;
 }
-.progress-bar {
-
-}
-
 
 /* FOOTER */

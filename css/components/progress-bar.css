@@ -17,10 +17,10 @@
     display: inline-block;
     width: 100%;
     height: 5px;
-    background-color: #EDEDED;
+    background-color: #ededed;
 }
 .progress-bar > .bottom > .bar {
-    background-color: var(--primary-color);
+    background-color: var;
     width: 90%;
     height: 100%;
 }
