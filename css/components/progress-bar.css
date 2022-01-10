@@ -17,10 +17,26 @@
     display: inline-block;
     width: 100%;
     height: 5px;
-    background-color: #ededed;
+    background-color: #ccc;
 }
 .progress-bar > .bottom > .bar {
-    background-color: var;
     width: 90%;
     height: 100%;
+}
+.progress-bar .bar > .loading {
+    width: 0;
+    height: 100%;
+    background-color: var(--primary-color);
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
 }
